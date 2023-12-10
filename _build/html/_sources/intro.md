@@ -1,11 +1,12 @@
 # Welcome to your Jupyter Book
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Jupyter Book ini ditulis oleh :
 
-Check out the content pages bundled with this sample book to see more.
+Nama : Ahmad Faikh Irfan Abu Sa'ad <br>
+NIM  : 200411100117
+
+Untuk memenuhi tugas mata kuliah Proyek Sains Data.<br>
+Jupyter book ini membahas pengolahan dataset mulai dari data uderstanding, preprocessing, normalisasi, hingga klasisfikasi data.
 
 ```{tableofcontents}
 ```
