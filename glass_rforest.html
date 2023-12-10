@@ -776,47 +776,47 @@ Dalam Scikit-learn, terdapat modul untuk seleksi fitur yaitu</p>
     <tr>
       <th>0</th>
       <td>RI</td>
-      <td>0.361899</td>
+      <td>0.358335</td>
     </tr>
     <tr>
       <th>1</th>
       <td>na2o</td>
-      <td>0.299755</td>
+      <td>0.288878</td>
     </tr>
     <tr>
       <th>2</th>
       <td>mg</td>
-      <td>0.405256</td>
+      <td>0.420741</td>
     </tr>
     <tr>
       <th>3</th>
       <td>al2o3</td>
-      <td>0.425229</td>
+      <td>0.420838</td>
     </tr>
     <tr>
       <th>4</th>
       <td>sio2</td>
-      <td>0.083854</td>
+      <td>0.095969</td>
     </tr>
     <tr>
       <th>5</th>
       <td>k2o</td>
-      <td>0.292854</td>
+      <td>0.326538</td>
     </tr>
     <tr>
       <th>6</th>
       <td>cao</td>
-      <td>0.238662</td>
+      <td>0.244589</td>
     </tr>
     <tr>
       <th>7</th>
       <td>bao</td>
-      <td>0.307708</td>
+      <td>0.337205</td>
     </tr>
     <tr>
       <th>8</th>
       <td>fe2o3</td>
-      <td>0.063277</td>
+      <td>0.037764</td>
     </tr>
   </tbody>
 </table>
@@ -834,7 +834,7 @@ Dalam Scikit-learn, terdapat modul untuk seleksi fitur yaitu</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/01aa778370cc3e36e4c2754284aefaacc95703cbe4a5876682ada545014cd503.png" src="_images/01aa778370cc3e36e4c2754284aefaacc95703cbe4a5876682ada545014cd503.png" />
+<img alt="_images/890b2b06cfb5fb13cc961cc37d90fd5de65cc517b4a8466e8a7805865904b95d.png" src="_images/890b2b06cfb5fb13cc961cc37d90fd5de65cc517b4a8466e8a7805865904b95d.png" />
 </div>
 </div>
 <p>Dari data diatas, fitur yang memiliki pengaruh paling sedikit terhadap target adalah sio2, fe2o3. Pengaruh kedua fitur tersebut terhadap akurasi akan dibuktikan pada tahap modelling</p>
@@ -1126,9 +1126,10 @@ Banyaknya data uji   :  92
 <section id="klasifikasi-dengan-random-forest">
 <h2>Klasifikasi dengan Random Forest<a class="headerlink" href="#klasifikasi-dengan-random-forest" title="Permalink to this heading">#</a></h2>
 <p>Random Forest adalah sebuah ensemble learning method yang terdiri dari sejumlah besar pohon keputusan. Setiap pohon keputusan, <span class="math notranslate nohighlight">\(T_i\)</span>, dibentuk secara acak dan independen. Prediksi dari Random Forest, <span class="math notranslate nohighlight">\(\hat{y}\)</span>, dihasilkan dari kombinasi prediksi dari setiap pohon keputusan:</p>
-<p>\begin{equation}
+<div class="math notranslate nohighlight">
+\[
 \hat{y} = \frac{1}{N} \sum_{i=1}^{N} T_i(x)
-\end{equation}</p>
+\]</div>
 <p>dengan <span class="math notranslate nohighlight">\(N\)</span> sebagai jumlah pohon keputusan dalam ensemble.</p>
 <p>Pohon keputusan dibentuk dengan menggunakan subset acak dari data pelatihan, dan pada setiap node, pemilihan fitur juga dilakukan secara acak. Hal ini membantu dalam mengatasi overfitting dan meningkatkan generalisasi model.</p>
 <p>Kita akan me- load model normalisasi yang telah disimpan tadi. Kemudian akan di transform ke dalam data train dan data testing</p>
