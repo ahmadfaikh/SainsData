@@ -1,4 +1,4 @@
 # Implementasi
 
 Hasil implementasi menggunakan Streamlit dapat diakses
-[disini](https://lsh5gnorgc4jjhenjydmyk.streamlit.app/).
+[disini](https://appuasultimate-ntuu7guaebio4brrjvas5v.streamlit.app/).
