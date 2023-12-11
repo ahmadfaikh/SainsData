@@ -67,6 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'glass_rforest';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Implementasi" href="implementasi.html" />
     <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -170,6 +171,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Glass Indentification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementasi.html">Implementasi</a></li>
 </ul>
 
     </div>
@@ -776,47 +778,47 @@ Dalam Scikit-learn, terdapat modul untuk seleksi fitur yaitu</p>
     <tr>
       <th>0</th>
       <td>RI</td>
-      <td>0.358335</td>
+      <td>0.359231</td>
     </tr>
     <tr>
       <th>1</th>
       <td>na2o</td>
-      <td>0.288878</td>
+      <td>0.284999</td>
     </tr>
     <tr>
       <th>2</th>
       <td>mg</td>
-      <td>0.420741</td>
+      <td>0.403180</td>
     </tr>
     <tr>
       <th>3</th>
       <td>al2o3</td>
-      <td>0.420838</td>
+      <td>0.399145</td>
     </tr>
     <tr>
       <th>4</th>
       <td>sio2</td>
-      <td>0.095969</td>
+      <td>0.079036</td>
     </tr>
     <tr>
       <th>5</th>
       <td>k2o</td>
-      <td>0.326538</td>
+      <td>0.304263</td>
     </tr>
     <tr>
       <th>6</th>
       <td>cao</td>
-      <td>0.244589</td>
+      <td>0.250717</td>
     </tr>
     <tr>
       <th>7</th>
       <td>bao</td>
-      <td>0.337205</td>
+      <td>0.331158</td>
     </tr>
     <tr>
       <th>8</th>
       <td>fe2o3</td>
-      <td>0.037764</td>
+      <td>0.091365</td>
     </tr>
   </tbody>
 </table>
@@ -834,7 +836,7 @@ Dalam Scikit-learn, terdapat modul untuk seleksi fitur yaitu</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/890b2b06cfb5fb13cc961cc37d90fd5de65cc517b4a8466e8a7805865904b95d.png" src="_images/890b2b06cfb5fb13cc961cc37d90fd5de65cc517b4a8466e8a7805865904b95d.png" />
+<img alt="_images/9de489b935c41d59589a7a2c8d680eb5b94c58feaab0d2716bd9c5f81135411f.png" src="_images/9de489b935c41d59589a7a2c8d680eb5b94c58feaab0d2716bd9c5f81135411f.png" />
 </div>
 </div>
 <p>Dari data diatas, fitur yang memiliki pengaruh paling sedikit terhadap target adalah sio2, fe2o3. Pengaruh kedua fitur tersebut terhadap akurasi akan dibuktikan pada tahap modelling</p>
@@ -1003,15 +1005,17 @@ Name: label, dtype: int64
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: imbalanced-learn in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (0.11.0)
-Requirement already satisfied: numpy&gt;=1.17.3 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.23.5)
-Requirement already satisfied: scipy&gt;=1.5.0 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.11.2)
-Requirement already satisfied: scikit-learn&gt;=1.0.2 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.3.1)
-Requirement already satisfied: joblib&gt;=1.1.1 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.3.2)
-Requirement already satisfied: threadpoolctl&gt;=2.0.0 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (3.2.0)
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[notice] A new release of pip is available: 23.2.1 -&gt; 23.3.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: numpy&gt;=1.17.3 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.23.5)
+Requirement already satisfied: scipy&gt;=1.5.0 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.11.2)
+Requirement already satisfied: scikit-learn&gt;=1.0.2 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.3.1)
+Requirement already satisfied: joblib&gt;=1.1.1 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (1.3.2)
+Requirement already satisfied: threadpoolctl&gt;=2.0.0 in c:\users\hp\appdata\local\programs\python\python310\lib\site-packages (from imbalanced-learn) (3.2.0)
 </pre></div>
 </div>
 </div>
@@ -1253,6 +1257,15 @@ weighted avg       0.94      0.93      0.93        92
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Welcome to your Jupyter Book</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="implementasi.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Implementasi</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
